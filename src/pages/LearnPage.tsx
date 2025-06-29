@@ -9,13 +9,30 @@ const LearnPage = () => {
   const [allCards, setAllCards] = useState<Card[]>([])
   const [isReviewMode, setIsReviewMode] = useState(false)
 
-  // Load cards from localStorage or use default cards
-  useEffect(() => {
+  // Function to load cards from localStorage
+  const loadCards = () => {
     const savedCustomCards = localStorage.getItem('customCards')
     const customCards: Card[] = savedCustomCards ? JSON.parse(savedCustomCards) : []
     
     const combinedCards = [...germanWords, ...customCards]
     setAllCards(combinedCards)
+  }
+
+  // Load cards from localStorage or use default cards
+  useEffect(() => {
+    loadCards()
+  }, [])
+
+  // Reload cards when page becomes visible (for custom cards)
+  useEffect(() => {
+    const handleVisibilityChange = () => {
+      if (!document.hidden) {
+        loadCards()
+      }
+    }
+
+    document.addEventListener('visibilitychange', handleVisibilityChange)
+    return () => document.removeEventListener('visibilitychange', handleVisibilityChange)
   }, [])
 
   const handleAnswer = (isCorrect: boolean) => {

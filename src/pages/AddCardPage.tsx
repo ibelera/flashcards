@@ -71,7 +71,6 @@ const AddCardPage = () => {
               onChange={(e) => setGermanWord(e.target.value)}
               className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               placeholder="z.B. Haus"
-              required
             />
           </div>
 
@@ -86,7 +85,6 @@ const AddCardPage = () => {
               onChange={(e) => setEnglishWord(e.target.value)}
               className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               placeholder="z.B. house"
-              required
             />
           </div>
 
