@@ -19,37 +19,37 @@ Phase 1: Projekt-Setup & Grundgerüst
 [x] Links zu den Hauptseiten implementieren: "Lernen", "Quiz", "Statistik", "Karte hinzufügen".
 
 Phase 2: Kernfunktionalität der Lernkarten (FR-1 & FR-2)
-[ ] Daten-Setup:
+[x] Daten-Setup:
 
-[ ] Eine JSON- oder TS-Datei mit den vordefinierten 250 deutschen Wörtern und deren Übersetzungen erstellen.
+[x] Eine JSON- oder TS-Datei mit den vordefinierten 250 deutschen Wörtern und deren Übersetzungen erstellen.
 
-[ ] Typ-Definitionen für eine Card und ein Deck erstellen.
+[x] Typ-Definitionen für eine Card und ein Deck erstellen.
 
-[ ] Lernkarten-Komponente (Flashcard.tsx):
+[x] Lernkarten-Komponente (Flashcard.tsx):
 
-[ ] Komponente erstellen, die eine einzelne Karte anzeigt (zuerst die deutsche Seite).
+[x] Komponente erstellen, die eine einzelne Karte anzeigt (zuerst die deutsche Seite).
 
-[ ] Klick/Tipp-Handler implementieren, um eine CSS-basierte Flip-Animation auszulösen.
+[x] Klick/Tipp-Handler implementieren, um eine CSS-basierte Flip-Animation auszulösen.
 
-[ ] Nach dem Umdrehen die englische Übersetzung anzeigen.
+[x] Nach dem Umdrehen die englische Übersetzung anzeigen.
 
-[ ] Lern-Seite (LearnPage.tsx):
+[x] Lern-Seite (LearnPage.tsx):
 
-[ ] Die Lernkarten-Komponente auf der Seite einbinden.
+[x] Die Lernkarten-Komponente auf der Seite einbinden.
 
-[ ] Logik implementieren, um durch den Kartensatz zu blättern.
+[x] Logik implementieren, um durch den Kartensatz zu blättern.
 
-[ ] Buttons "Falsch" und "Richtig" unter der umgedrehten Karte anzeigen.
+[x] Buttons "Falsch" und "Richtig" unter der umgedrehten Karte anzeigen.
 
-[ ] Den Status für "falsch" beantwortete Karten verwalten (z.B. in einem useState-Array).
+[x] Den Status für "falsch" beantwortete Karten verwalten (z.B. in einem useState-Array).
 
-[ ] Eigene Karten hinzufügen (AddCardPage.tsx):
+[x] Eigene Karten hinzufügen (AddCardPage.tsx):
 
-[ ] Ein Formular mit Feldern für "Deutsch" und "Englisch" erstellen.
+[x] Ein Formular mit Feldern für "Deutsch" und "Englisch" erstellen.
 
-[ ] Logik implementieren, um neue Karten im localStorage zu speichern.
+[x] Logik implementieren, um neue Karten im localStorage zu speichern.
 
-[ ] Sicherstellen, dass selbst erstellte Karten im Lernmodus verwendet werden können.
+[x] Sicherstellen, dass selbst erstellte Karten im Lernmodus verwendet werden können.
 
 Phase 3: Lernmodi (FR-3)
 [ ] Wiederholungsmodus ("Review Mode"):
