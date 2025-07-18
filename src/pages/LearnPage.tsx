@@ -1,6 +1,4 @@
-import { useState } from 'react'
 import Flashcard from '../components/Flashcard'
-import { Card } from '../types'
 import useCards from '../hooks/useCards'
 import ProgressBar from '../components/ProgressBar'
 import SessionInfo from '../components/SessionInfo'
