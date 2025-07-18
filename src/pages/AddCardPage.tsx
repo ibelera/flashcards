@@ -1,4 +1,3 @@
-import React from 'react'
 import useCustomCards from '../hooks/useCustomCards'
 import useMessage from '../hooks/useMessage'
 import AddCardForm from '../components/AddCardForm'
